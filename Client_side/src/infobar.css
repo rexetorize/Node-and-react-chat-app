@@ -1,0 +1,29 @@
+.info-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2979ff;
+  border-radius: 4px 4px 0 0;
+  height: 30px;
+  width: 320px;
+}
+
+.right-box {
+  display: flex;
+  flex: 0.5;
+  justify-content: flex-end;
+  margin-right: 5%;
+}
+
+.left-box {
+  flex: 0.5;
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+  color: white;
+}
+
+.left-box-title {
+  margin-left: 10px;
+  font-weight: normal;
+}

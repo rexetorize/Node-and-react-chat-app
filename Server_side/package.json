@@ -1,0 +1,18 @@
+{
+  "name": "server-side",
+  "version": "1.0.0",
+  "description": "Server side fo the Chat App",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "author": "Rexetorize",
+  "license": "ISC"
+}

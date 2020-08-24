@@ -1,0 +1,50 @@
+.pl-10 {
+  padding-left: 10px;
+}
+
+.pr-10 {
+  padding-right: 10px;
+}
+
+.justifyStart {
+  justify-content: flex-start;
+}
+
+.justifyEnd {
+  justify-content: flex-end;
+}
+
+.colorWhite {
+  color: white;
+}
+
+.colorDark {
+  color: #353535;
+}
+
+.backgroundBlue {
+  background: #2979ff;
+}
+
+.backgroundLight {
+  background: #f3f3f3;
+}
+
+.messageText {
+  word-wrap: break-word;
+  font-size: 12px;
+}
+
+.messageContainer {
+  margin-top: 1px;
+  display: flex;
+  align-items: center;
+}
+
+.messageBox {
+  margin-top: 5px;
+  width: 200px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 10px 10px 10px 10px;
+}

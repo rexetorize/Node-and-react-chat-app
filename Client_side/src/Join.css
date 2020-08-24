@@ -1,0 +1,70 @@
+body {
+  font-family: sans-serif;
+  border: 0;
+  margin: 0;
+}
+
+.Join-page {
+  color: white;
+
+  font-family: sans-serif;
+  color: white;
+  min-height: 100vh;
+  border: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    hsl(220deg, 80%, 80%),
+    hsl(250deg, 80%, 80%)
+  );
+  background-repeat: no-repeat;
+}
+
+.box-1 {
+  height: 200px;
+  width: 200px;
+  border-radius: 10%;
+  background-color: hsla(250, 52%, 58%, 0.84);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.uname-box {
+  display: flex;
+  flex-direction: column;
+}
+.uname-box > input {
+  padding-left: 10px;
+  outline-style: none;
+  border-radius: 0.5em;
+  border: 0;
+}
+
+.rname-box {
+  display: flex;
+  flex-direction: column;
+}
+.rname-box > input {
+  padding-left: 10px;
+  outline-style: none;
+  border-radius: 0.5em;
+  border: 0;
+}
+
+.btn {
+  color: white;
+  border-radius: 0.5em;
+  outline-style: none;
+  background-color: #7cb266;
+  border: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #40be2d;
+}
